@@ -10,4 +10,4 @@ After the batch process you could use the weblogin:
 with following credentials:
 
 	user: 	admin
-	pass:	kickstart
+	pass:	secret
