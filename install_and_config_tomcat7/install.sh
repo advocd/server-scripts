@@ -8,6 +8,6 @@ sudo cp tomcat-users.xml /etc/tomcat7
 sudo service tomcat7 restart
 echo ""
 echo user: admin
-echo pass: kickstart
+echo pass: secret
 echo ""
 echo change username and password in /etc/tomcat7/tomcat-users.xml
