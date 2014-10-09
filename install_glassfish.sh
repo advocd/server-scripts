@@ -8,4 +8,5 @@ wget download.java.net/glassfish/4.0/release/glassfish-4.0.zip
 sudo apt-get install unzip -y
 sudo unzip glassfish-4.0.zip -d /opt
 
+cd /opt/glassfish4/bin/
 sudo ./asadmin start-domain
