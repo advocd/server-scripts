@@ -3,7 +3,7 @@ sudo add-apt-repository ppa:webupd8team/java -y
 sudo apt-get update
 sudo apt-get install oracle-java7-installer -y
 
-cd ~/Downloads
+cd ~
 wget download.java.net/glassfish/4.0/release/glassfish-4.0.zip
 sudo apt-get install unzip -y
 sudo unzip glassfish-4.0.zip -d /opt
