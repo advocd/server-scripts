@@ -1,1 +1,5 @@
 
+/etc/init.d/cups stop
+cp /usr/share/post-install/config-files/printers.conf /etc/cups/
+cp /usr/share/post-install/config-files/Brother.ppd /etc/cups/ppd/
+/etc/init.d/cups start
